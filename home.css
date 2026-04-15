@@ -1,0 +1,190 @@
+* {
+    
+    font-family:monospace;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    background-color: #11212D;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #aaa;
+}
+
+.right-side {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+
+.call-us {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo-combo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.groquick-logo {
+    background-image:url(GroQuick-Image-removebg.png);
+    height: 30px;
+    width: 70px;
+    background-size: cover;
+    margin-left: 30px;
+    background-color: #ffc300;
+    border-radius: 11px;
+    background-position: center;
+    transition: 0.3s ease;
+}
+
+
+.groquick-logo1 {
+    background-image:url(Grocery-image-removebg.png);
+    height: 30px;
+    width: 70px;
+    background-size: cover;
+    margin-right: 60px;
+    margin-left: 15px;
+    background-color: #aaa;
+    border-radius: 11px;
+    background-size: 88%;
+    background-position: center;
+    transition: 0.3s ease;
+}
+
+.groquick-logo:hover,
+.groquick-logo1:hover {
+    background-color: #ffc300;
+}
+
+
+
+.call-us h4,
+.login h4 {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.call-us i,
+.login i {
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+/* Navbar-2 Box Start */
+
+.navbar-line2 {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    background-color: #11212D;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 11px;
+}
+
+.silector {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.text-x-combo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.district-list {
+    height: 30px;
+    width: 80px;
+    background-color: transparent;
+    border: none;
+    color: #aaa;
+}
+
+.fa-location-dot {
+    font-size: 14px;
+}
+
+.fa-bars {
+    margin-right: 30px;
+    font-size: 19px;
+}
+
+
+/* main Box1 Start */
+
+.main-box1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.main-box1-bgimg {
+    background-image: url("GroQuick-bg img1.png");
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+    background-position: center;
+    border-bottom: 1px solid #aaa;
+}
+
+.text-combo-main {
+    margin-left: 7%;
+    margin-right: 50%;
+    margin-top: 30px;
+}
+
+.text-combo-main h2 {
+    font-size: 23px;
+}
+
+.text-combo-main p {
+    font-size: 9px;
+}
+
+.text-combo-main button {
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    background-color: #ffc300;
+}
+
+.text-combo-main button:hover {
+    background-color: #aaa;
+}
+
+
+
+
